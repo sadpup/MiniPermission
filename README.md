@@ -2,7 +2,9 @@
 mini permission 
 
 权限MiniPermission
+
 因觉得目前能接触到的权限处理都不够简单方便，故动手写了一份权限的sdk，希望做到简单方便，高可用，稳定；
+
 一、使用：
 1、androidmainfest.xml中对需要的权限进行配置；
 <!--⬇️ only for test MiniPermission ⬇️-->
