@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hongjin.minipermission" >
+    <application>
+        <activity android:name="com.hongjin.minipermission.MiniPermissionActivity"
+            android:theme="@style/minitranslucent"/>
+        <!--android:theme="@android:style/Theme.Translucent" 用这个没有适配问题，但是样式不好，需要自定义dialog-->
+    </application>
+
+</manifest>

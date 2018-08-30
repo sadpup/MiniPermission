@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MiniPermission.iml" filepath="$PROJECT_DIR$/MiniPermission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyApplication.iml" filepath="$PROJECT_DIR$/../MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../my_flutter/.android/Flutter/flutter.iml" filepath="$PROJECT_DIR$/../../my_flutter/.android/Flutter/flutter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../minipermission-annotations/minipermission-annotations.iml" filepath="$PROJECT_DIR$/../minipermission-annotations/minipermission-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../minipermission-compiler/minipermission-compiler.iml" filepath="$PROJECT_DIR$/../minipermission-compiler/minipermission-compiler.iml" />
+    </modules>
+  </component>
+</project>

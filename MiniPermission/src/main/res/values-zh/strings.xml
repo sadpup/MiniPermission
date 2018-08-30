@@ -1,0 +1,7 @@
+<resources>
+    <string name="mini_dialog_title">您拒绝过这个权限</string>
+    <string name="mini_dialog_message">请到系统设置中手动允许生效,设置--应用--允许相应权限</string>
+    <string name="mini_dialog_gotxt">前往</string>
+    <string name="mini_dialog_closetxt">关闭</string>
+    <string name="mini_tip_please">请授权 </string>
+</resources>

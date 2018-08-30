@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_toLeftOf="@+id/se_btn"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:text="Hello World!"-->
+    <!--android:background="@null"/>-->
+    <EditText
+        android:id="@+id/shareadd_content"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="left|top"
+        android:hint="input_share_content"
+        android:textColor="#cccccc"
+        android:minLines="3"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/test_flutter"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="打开一个flutter"
+        android:background="#ffffff"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/test_minipremission"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="测试minipremission_base"
+        android:background="#ffffff"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/test_flutter"/>
+
+</android.support.constraint.ConstraintLayout>

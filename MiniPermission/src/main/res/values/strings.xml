@@ -1,0 +1,7 @@
+<resources>
+    <string name="mini_dialog_title">You have denied this permission.</string>
+    <string name="mini_dialog_message">Please go to the system settings manually to allow effective settings, application - allow corresponding permissions</string>
+    <string name="mini_dialog_gotxt">Go</string>
+    <string name="mini_dialog_closetxt">Close</string>
+    <string name="mini_tip_please">Please granted permission </string>
+</resources>
