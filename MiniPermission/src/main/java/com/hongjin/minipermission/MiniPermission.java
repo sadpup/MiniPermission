@@ -113,8 +113,11 @@ public class MiniPermission {
      * 检查 权限是否 授予的方法
      * @return 未授予列表
      * */
-    public String[] checkPermissions(Context context,String... permissions ){
+    public String[] checkPermissions(Context context,String[] permissions ){
         List<String> unGrantPermissions = new ArrayList<>();
+        if(permissions == null){
+            return new String[]{};
+        }
         for(String permission:permissions){
             if (ContextCompat.checkSelfPermission(context,permission) != PackageManager.PERMISSION_GRANTED) {
                 unGrantPermissions.add(permission);
