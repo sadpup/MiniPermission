@@ -94,7 +94,7 @@ public class MiniPermissionActivity extends Activity{
     }
 
     /**
-     * 权限被授予了，做你想做的事吧。
+          * 权限操作结束，处理回调
      * */
     private void permissionGranted(String[] grantedPermissions,String[] deniedPermissions){
         MiniPermission.getInstance().handleCallback(grantedPermissions,deniedPermissions);
